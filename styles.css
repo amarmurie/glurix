@@ -1,0 +1,17 @@
+.product-card {
+  display: inline-block;
+  width: 220px;
+  margin: 18px;
+  padding: 12px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.22s cubic-bezier(.2,1.3,.4,1), box-shadow 0.16s;
+}
+.product-card:hover {
+  transform: scale(1.07) rotate(-1deg);
+  box-shadow: 0 8px 24px rgba(0,180,216,0.13);
+  z-index: 2;
+}
+.pay-option { /* كما في الأعلى */ }
+.pay-option.active, .pay-option:hover { /* كما في الأعلى */ }
